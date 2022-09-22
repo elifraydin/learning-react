@@ -5,6 +5,6 @@
 @layer base{
 
   .buttons{
-    @apply flex justify-center items-center rounded-full font-bold h-12 w-12 text-textColor
+    @apply flex justify-center items-center rounded-full font-bold h-12 sm:w-12 text-textColor mb-3 sm:mb-0
   }
 }
