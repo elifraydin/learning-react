@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+
+  .buttons{
+    @apply flex justify-center items-center rounded-full font-bold h-12 w-12 text-textColor
+  }
+}
