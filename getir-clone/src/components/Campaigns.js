@@ -6,17 +6,17 @@ import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io'
 
 function NextBtn({ className, style, onClick }) {
   return (
-      <button className={`text-brand-color absolute top-1/2 -right-6 -translate-y-1/2`} onClick={onClick}>
-          <IoIosArrowForward size={22} />
-     </button>
+    <button className={`text-brand-color absolute top-1/2 -right-6 -translate-y-1/2`} onClick={onClick}>
+      <IoIosArrowForward size={22} />
+    </button>
   )
 }
 
 function PrevBtn({ className, style, onClick }) {
   return (
-      <button className={`text-brand-color absolute top-1/2 -left-6 -translate-y-1/2`} onClick={onClick}>
-          <IoIosArrowBack size={22} />
-      </button>
+    <button className={`text-brand-color absolute top-1/2 -left-6 -translate-y-1/2`} onClick={onClick}>
+      <IoIosArrowBack size={22} />
+    </button>
   )
 }
 
@@ -32,15 +32,39 @@ function Campaigns() {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
-    slidesToShow: 3,//sayfada 3 tane görünür
+
+    slidesToShow: 4,//sayfada 3 tane görünür
     slidesToScroll: 1, //birer birer kayar
     arrows: true,
     autoplay: true,
-    autoplaySpeed: 3500,
+    autoplaySpeed: 2500,
     cssEase: "linear",
     nextArrow: <NextBtn />,
-		prevArrow: <PrevBtn />,
+    prevArrow: <PrevBtn />,
+
+    responsive: [
+      {
+          breakpoint: 1280,
+          settings: {
+              slidesToShow: 3,
+              arrows: false,
+          }
+      },
+      {
+          breakpoint: 1024,
+          settings: {
+              slidesToShow: 2,
+              arrows: false,
+          }
+      },
+      {
+          breakpoint: 768,
+          settings: {
+              slidesToShow: 1,
+              arrows: false,
+          }
+      }
+  ]
 
   };
 
