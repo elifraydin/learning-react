@@ -67,12 +67,13 @@ function Footer() {
 
   return (
     <div className="bg-white mt-10">
-      <div className='container mx-auto'>
-        <div className='grid grid-cols-4 pt-10'>
+      <div className='container mx-auto px-4 md:px-0'>
+        <div className='grid gap-y-6 md:grid-cols-2 lg:grid-cols-4 pt-5 md:pt-10'>
           <section>
-            
-            <nav className="grid gap-y-4 ">
-            <h6 className="text-lg text-primary-brand-color mb-4">Getir'i indirin!</h6>
+
+          <h6 className="text-lg text-primary-brand-color mb-4">Getir'i indirin!</h6>
+            <nav className="grid gap-2 md:gap-4 grid-cols-2 md:grid-cols-1 ">
+          
               <a href="/#">
                 <img alt="" src="https://getir.com/_next/static/images/appstore-tr-141ed939fceebdcee96af608fa293b31.svg" />
               </a>
