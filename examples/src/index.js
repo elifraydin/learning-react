@@ -6,18 +6,20 @@ import './index.css';
 //import AppStateObject from './3-AppStateObject';
 //import AppCounter from './4-AppCounter';
 //import AppStateInput from './5-AppStateInput';
-import AppStateInput2 from './6-AppStateInput2';
+//import AppStateInput2 from './6-AppStateInput2';
+import AppUseEffect from './7-AppUseEffect';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <>
     {/* <AppProps /> */}
     {/* <AppStateArray/> */}
     {/* <AppStateObject/> */}
     {/* <AppCounter/> */}
     {/* <AppStateInput/> */}
-    <AppStateInput2/>
+    {/* <AppStateInput2/> */}
+    <AppUseEffect/>
 
-  </React.StrictMode>
+  </>
 
 );
