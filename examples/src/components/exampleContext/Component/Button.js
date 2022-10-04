@@ -1,9 +1,8 @@
-import ThemeContext from "../Context/ThemeContext" //bu import işlemini hangi componentte yaparsan yap o veriye ulaşırsın
-import { useContext } from 'react'
+import {useTheme} from "../Context/ThemeContext"
 
 function Button() {
 
-    const { theme, setTheme } = useContext(ThemeContext) //ve bu işlem
+    const { theme, setTheme } = useTheme() //ve bu işlem
 
 
     return (

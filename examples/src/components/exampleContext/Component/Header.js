@@ -1,9 +1,8 @@
-import ThemeContext from "../Context/ThemeContext"
-import { useContext } from 'react'
+import { useTheme } from '../Context/ThemeContext'
 
 function Header() {
 
-    const { theme, setTheme } = useContext(ThemeContext)
+    const { theme, setTheme } = useTheme()
 
     return (
         <div>
