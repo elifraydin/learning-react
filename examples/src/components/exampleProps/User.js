@@ -27,10 +27,10 @@ User.propTypes={
 name:PropTypes.string.isRequired, //isRequired-zorunlu, olması gerek, yoksa hata verir
 surname:PropTypes.string.isRequired,
 isLoggedIn:PropTypes.bool.isRequired,
-age:PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
+age:PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired, //number da gönderilebilir, string de
 
 friends:PropTypes.array,
-address:PropTypes.shape({
+address:PropTypes.shape({ //shape -> obje için type tanımlarken
     title:PropTypes.string,
     zip: PropTypes.number,
 })

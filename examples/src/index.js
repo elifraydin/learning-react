@@ -7,7 +7,9 @@ import './index.css';
 //import AppCounter from './4-AppCounter';
 //import AppStateInput from './5-AppStateInput';
 //import AppStateInput2 from './6-AppStateInput2';
-import AppUseEffect from './7-AppUseEffect';
+//import AppUseEffect from './7-AppUseEffect';
+//import AppFetch from './8-AppFetch';
+import AppContext from './9-AppContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,8 +20,9 @@ root.render(
     {/* <AppCounter/> */}
     {/* <AppStateInput/> */}
     {/* <AppStateInput2/> */}
-    <AppUseEffect/>
-
+    {/* <AppUseEffect/> */}
+    {/* <AppFetch/> */}
+    <AppContext/>
   </>
 
 );

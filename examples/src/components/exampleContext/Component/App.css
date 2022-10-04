@@ -1,0 +1,15 @@
+.app{
+    height: 100vh;
+    text-align: center;
+
+}
+
+.app.dark{
+    background-color: darkslategrey;
+    color: azure;
+    
+}
+
+.app.light{
+    background-color: beige;
+}
