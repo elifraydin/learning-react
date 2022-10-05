@@ -9,7 +9,8 @@ import './index.css';
 //import AppStateInput2 from './6-AppStateInput2';
 //import AppUseEffect from './7-AppUseEffect';
 //import AppFetch from './8-AppFetch';
-import AppContext from './9-AppContext';
+//import AppContext from './9-AppContext';
+import AppAxios from './10-AppAxios';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,7 +23,8 @@ root.render(
     {/* <AppStateInput2/> */}
     {/* <AppUseEffect/> */}
     {/* <AppFetch/> */}
-    <AppContext/>
+    {/* <AppContext/> */}
+    <AppAxios/>
   </>
 
 );
