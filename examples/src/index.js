@@ -10,7 +10,9 @@ import './index.css';
 //import AppUseEffect from './7-AppUseEffect';
 //import AppFetch from './8-AppFetch';
 //import AppContext from './9-AppContext';
-import AppAxios from './10-AppAxios';
+//import AppAxios from './10-AppAxios';
+//import AppAxiosCovid from './11-AppAxiosCovid';
+import AppAxiosWeather from './12-AppAxiosWeather';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,7 +26,9 @@ root.render(
     {/* <AppUseEffect/> */}
     {/* <AppFetch/> */}
     {/* <AppContext/> */}
-    <AppAxios/>
+    {/* <AppAxios/> */}
+    {/* <AppAxiosCovid/> */}
+    <AppAxiosWeather/>
   </>
 
 );
